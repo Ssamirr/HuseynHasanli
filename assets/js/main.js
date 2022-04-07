@@ -5,21 +5,6 @@ window.scroll({
 let loader = document.querySelector('.loader')
 window.onload = loader.classList.add('d-none')
 
-window.onscroll = function() {myFunction()};
-
-var navbar = document.querySelector(".header-navbar-menu");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-    document.querySelector('.header-navbar-menu').style.bottom='auto';
-  } else {
-    navbar.classList.remove("sticky");
-    document.querySelector('.header-navbar-menu').style.bottom='0';
-  }
-}
-
 var menu_button = document.querySelector('.menu-button')
 var menu_content = document.querySelector('.menu-content')
 var main_header_wrapper = document.querySelector('.main_header_wrapper')
