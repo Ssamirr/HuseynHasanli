@@ -1,5 +1,6 @@
-import smoothscroll from 'smoothscroll-polyfill';
-smoothscroll.polyfill();
+window.scroll({
+  behavior:'smooth'
+})
 
 let loader = document.querySelector('.loader')
 window.onload = loader.classList.add('d-none')

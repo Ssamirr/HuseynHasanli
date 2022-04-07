@@ -370,12 +370,12 @@ hr{
     border:1px solid #26a151;
     width: 100%;
     z-index: 15;
-    top: 76px;
+    top: 68px;
 }
 
 .hamburger-menuu a{
     color: #26a151 !important;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -597,5 +597,8 @@ hr{
     }
     .galleries-img{
         flex-wrap: nowrap !important;
+    }
+    .navbar-menu a{
+        font-size:16px;
     }
 }
