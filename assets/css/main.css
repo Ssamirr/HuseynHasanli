@@ -595,4 +595,7 @@ hr{
     .bg-img{
         height: 400px;
     }
+    .galleries-img{
+        flex-wrap: nowrap !important;
+    }
 }
