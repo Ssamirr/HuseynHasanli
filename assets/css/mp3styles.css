@@ -107,19 +107,24 @@ header h2 {
 }
 .controls .play {
   background: url(../images/play.png) no-repeat;
+  background-size: contain;
 }
 .controls .pause {
   background: url(../images/pause.png) no-repeat;
+  background-size: contain;
   display: none;
 }
 .controls .rew {
   background: url(../images/rewind.png) no-repeat;
+  background-size: contain;
 }
 .controls .fwd {
   background: url(../images/next.png) no-repeat;
+  background-size: contain;
 }
 .controls .stop {
   background: url(../images/stop.png) no-repeat;
+  background-size: contain;
 }
 .hidden {
   display: none;
