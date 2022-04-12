@@ -85,8 +85,8 @@ header h2 {
 }
 .controls .play,
 .controls .pause {
-  width: 45px;
-  height: 45px;
+  width: 45px !important;
+  height: 45px !important;
   margin: 0 5px 0px 5px;
 }
 .controls .play,
@@ -101,8 +101,8 @@ header h2 {
 .controls .rew,
 .controls .fwd,
 .controls .stop {
-  width: 35px;
-  height: 35px;
+  width: 35px !important;
+  height: 35px !important;
   margin: 5px 5px 5px 5px;
 }
 .controls .play {
