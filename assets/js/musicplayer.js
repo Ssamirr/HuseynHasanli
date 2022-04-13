@@ -608,3 +608,14 @@ $(".example").musicPlayer({
     trackClicked: function() {},
     onMute: function() {}
   });
+
+// document.querySelector('.rew').style.width="35px";
+// document.querySelector('.rew').style.height="35px";
+// document.querySelector('.fwd').style.width="35px";
+// document.querySelector('.fwd').style.height="35px";
+// document.querySelector('.stop').style.width="35px";
+// document.querySelector('.stop').style.height="35px";
+// document.querySelector('.play').style.width="45px";
+// document.querySelector('.play').style.height="45px";
+// document.querySelector('.pause').style.width="45px";
+// document.querySelector('.pause').style.height="45px";

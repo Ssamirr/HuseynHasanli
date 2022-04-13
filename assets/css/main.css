@@ -449,6 +449,10 @@ hr{
     z-index: 100;
   }
 
+.gallery-img{
+    width: calc(100%/3);
+}
+
 @-webkit-keyframes ldio-rpinwye8j0b {
     0% {
      -webkit-transform:rotate(0deg);
@@ -589,15 +593,15 @@ hr{
         padding-right: 12px !important;  
     }
     .gallery-img{
-        width: auto;
-        height: 100px;
+        /* width: auto; */
+        /* height: 100px; */
     }
     .bg-img{
         height: 400px;
     }
-    .galleries-img{
+    /* .galleries-img{
         flex-wrap: nowrap !important;
-    }
+    } */
     .navbar-menu a{
         font-size:16px;
     }
